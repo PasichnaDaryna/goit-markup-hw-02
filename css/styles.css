@@ -1,0 +1,28 @@
+/*
+
+color blue #2196F3;
+color white: #FFFFFF;
+
+h2 color color:  #212121;
+;
+text p color: #757575;
+
+*/
+
+.logo {
+    color: #2196F3;
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+width: 153px;
+height: 31px;
+left: 200px;
+top: 24px;
+}
+
+.studio {
+    color: #212121;
+}
+
