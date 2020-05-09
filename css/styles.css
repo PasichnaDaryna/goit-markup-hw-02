@@ -7,11 +7,20 @@ h2 color color:  #212121;
 ;
 text p color: #757575;
 
+all typefaces find
+
+
 */
+body {
+    font-size: 14px;
+    width: 1600px;
+    background: #FFFFFF;
+    font-family: Rooto, sans-serif;
+}
 
 .logo {
     color: #2196F3;
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -26,3 +35,78 @@ top: 24px;
     color: #212121;
 }
 
+.efect-sol {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2196F3;
+}
+
+.email-address {
+    color: #757575;
+}
+
+.email-address:hover {
+    
+        color: #2196F3;
+      }
+
+
+.tel:hover,
+.tel:focus {
+    color: #2196F3;   
+}
+
+.tel {
+    color: #757575;
+}
+.list {
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.opt-studio:hover,
+.opt-studio:focus {
+    color: #2196F3;  
+}
+
+
+.order-text {
+font-weight: bold;
+font-size: 16px;
+display: flex;
+text-align: center;
+color: #FFFFFF;
+background: #2196F3;
+border-radius: 4px;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+}
+.occupation {
+    font-size: 36px;
+}
+
+.team-section {
+background: #F5F4FA;
+}
+
+footer {
+    background: #2F303A;
+}
+
+p {
+    color: #757575
+}
+
+.header-list {
+    list-style: none;
+}
