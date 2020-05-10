@@ -15,7 +15,7 @@ body {
     font-size: 14px;
     width: 1600px;
     background: #FFFFFF;
-    font-family: Rooto, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .logo {
@@ -44,15 +44,19 @@ top: 24px;
     line-height: 60px;
     text-align: center;
     background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .email-address {
     color: #757575;
+    font-style: normal;
+    font-weight: 500px;
 }
 
 .email-address:hover {
     
         color: #2196F3;
+        font-style: normal;
       }
 
 
@@ -83,6 +87,9 @@ font-weight: bold;
 font-size: 16px;
 display: flex;
 text-align: center;
+align-items: center;
+padding-left: 60px;
+margin-left: 700px;
 color: #FFFFFF;
 background: #2196F3;
 border-radius: 4px;
@@ -104,9 +111,75 @@ footer {
 }
 
 p {
-    color: #757575
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .header-list {
     list-style: none;
+}
+
+
+.all-button:hover,
+.all-button:focus {
+    background-color: #2196F3;
+}
+.blue-text:hover {
+    background-color: #2196F3;  
+    line-height: 1.55;
+}
+
+.blue-text {
+    width: 380px;
+    text-align: left;
+}
+.subscribe {
+    color: white;
+    text-transform: uppercase;
+}
+
+.studio-footer {
+    color: white
+}
+
+.address {
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.tel-email {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.join {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.portfolio:hover,
+.portfolio:focus,
+.portfolio:active {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.products-white {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background: rgba(47, 48, 58, 0.8);
+    border-radius: 0px 0px 4px 4px;
+    width: 380px;
+    height: 70px;
+    line-height: 1.1;
+    text-align: center;
+    padding-top: 35px;
+    margin: 0px;
+    
 }

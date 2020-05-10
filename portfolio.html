@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <title>Web Studio</title>
 </head>
 <body>
@@ -17,17 +17,17 @@
 
             </a>  
             <ul class="list">
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
+                <li><a class="opt-studio" href="./index.html">Студия</a></li>
+                <li><a class="portfolio" href="">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
 
             </ul>
             <ul class="list">
                 <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="email-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
             </ul>
         </nav>        
@@ -41,7 +41,7 @@
             <ul class="list">
                 <!--radio button-->
                 <li>
-                    <button type="button">Все</button>                    
+                    <button class="all-button" type="button">Все</button>                    
                 </li>
                 <li>
                     <button type="button">Веб-сайты</button>
@@ -61,58 +61,57 @@
         
             <ul class="list">
                 <li><a href="">
-                    <img src="./" alt="">
+                    <p class="blue-text">Технокряк это современная <br> площадка распространения <br> коронавируса. Компании <br> используют эту платформу для <br> цифрового шпионажа и атак на <br> защищённые сервера конкурентов.</p>
                     <h3>Технокряк</h3>
-                    <img src="" alt="">
                     <p>Веб-сайт</p>
                 </a>
                 </li>
                 <li>
-                    <a href=""><img src="./img/sport.jpg" alt="Sport">
+                    <a href=""><img src="./img/sport.jpg" width="380" alt="Sport">
                         <h3>Постер New Orlean vs Golden Stars</h3>
                         <p>Дизайн</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="./img/restaurant.jpg" alt="Seafood">
+                    <a href=""><img src="./img/restaurant.jpg" width="380" alt="Seafood">
                         <h3>Ресторан Seafood</h3>
                         <p>Приложение</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="./img/headset.jpg" alt="headset">
+                    <a href=""><img src="./img/headset.jpg" width="380" alt="headset">
                         <h3>Проект Prime</h3>
                         <p>Маркетинг</p></a>
                 </li>
                 <li>
                    <a href="">
-                    <img src="./img/boxes.jpg" alt="boxes">
+                    <img src="./img/boxes.jpg" width="380" alt="boxes">
                     <h3>Проект Boxes</h3>
                 <p>Приложение</p>
                    </a>
             </li>
                 <li>
                     <a href="">
-                        <img src="./img/screen.jpg" alt="screen">
+                        <img src="./img/screen.jpg" width="380" alt="screen">
                         <h3>Inspiration has no Borders</h3>
                         <p>Веб-сайт</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./img/img7.jpg" alt="magazines">
+                        <img src="./img/img7.jpg" width="380" alt="magazines">
                         <h3>Издание Limited Edition</h3>
                         <p>Дизайн</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./img/project-lab.jpg" alt="project-lab">
+                        <img src="./img/project-lab.jpg" width="380" alt="project-lab">
                         <h3>Проект LAB</h3>
                         <p>Маркетинг</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./img/lap-top.jpg" alt="lap-top">
+                        <img src="./img/lap-top.jpg" width="380" alt="lap-top">
                     <h3>Growing Business</h3>
                     <p>Маркетинг</p>
                     </a>
@@ -127,14 +126,16 @@
    <footer>
     <div>
         <span>
-            <a class="logo" href="">Web <span class="studio">Studio</span></a>
+            <a class="logo" href="">Web <span class="studio-footer">Studio</span></a>
         </span>
         <address>
-            <span>г. Киев, пр-т Леси Украинки, 26</span>
+            <span class="address">г. Киев, пр-т Леси Украинки, 26</span>
             <br>                
-            <a href="mailto:info@example.com">info@example.com</a>
-            <br>
-            <a href="tel:+380991111111">+380991111111</a>
+             
+                <a class="tel-email" href="mailto:info@example.com">info@example.com</a>
+                <br>
+                <a class="tel-email" href="tel:+380991111111">+380991111111</a>
+            
 
         </address>
     </div>
@@ -143,7 +144,7 @@
     
     
         <div>
-            <b>Присоединяйтесь</b>
+            <b class="join">Присоединяйтесь</b>
         <ul class="list">
                     
             <li><a href="" aria-label="Instagram link">
@@ -186,7 +187,7 @@
         </div>
     
         <div>
-            <b>Подпишитесь на рассылку</b>
+            <b class="subscribe">Подпишитесь на рассылку</b>
         <br>
         <input type="email" placeholder="E-mail">
         <input type="submit" value="Отправить">
