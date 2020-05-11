@@ -79,8 +79,8 @@ a {
     text-decoration: none;
     color: #212121;
 }
-.opt-studio:hover,
-.opt-studio:focus {
+.nav-option:hover,
+.nav-option:focus {
     color: #2196F3;  
 }
 
@@ -119,16 +119,27 @@ p {
     line-height: 1.71;
 }
 
-.header-list {
+.site-nav {
     list-style: none;
 }
 h1, h2, h3 {
     color: #212121;
 }
 
-.all-button:hover,
-.all-button:focus {
+.filter-button:hover,
+.filter-button:focus {
+    font-family: Roboto;
     background-color: #2196F3;
+
+
+}
+
+.filter-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .blue-text:hover {
     background-color: #2196F3;  
@@ -140,16 +151,16 @@ h1, h2, h3 {
     text-align: left;
 }
 .subscribe {
-    color: white;
+    color: #FFFFFF;
     text-transform: uppercase;
 }
 
 .studio-footer {
-    color: white
+    color: #FFFFFF
 }
 
 .address {
-    color: white;
+    color: #FFFFFF;
     font-size: 14px;
     font-style: normal;
 }
@@ -161,7 +172,7 @@ h1, h2, h3 {
 }
 
 .join {
-    color: white;
+    color: #FFFFFF;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -173,7 +184,7 @@ h1, h2, h3 {
 }
 
 .products-white {
-    color: white;
+    color: #FFFFFF;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
