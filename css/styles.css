@@ -7,10 +7,21 @@
 цвет имейла и телефона в футере - color: rgba(255, 255, 255, 0.6);
 цвет копирайта color: rgba(255, 255, 255, 0.4);
 
+
+var(--main-bg-color)  #FFFFFF;
+ var(--main-txt-color) #757575 ;
+
  */
 
 
+:root {
+    --main-bg-color:  #FFFFFF;
+    --main-txt-color: #757575 ;
+    --h123-link-color: #212121;
+    --hover-focus-color: #2196F3;
+    --footer-bg-color: #2F303A;
 
+}
 
 body {
     font-size: 14px;
@@ -20,7 +31,7 @@ body {
 }
 
 .logo {
-    color: #2196F3;
+    color: var(--hover-focus-color)
     font-family: Raleway,sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -44,7 +55,7 @@ top: 24px;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    background-color: #2196F3;
+    background-color: var(--hover-focus-color);
     color: #FFFFFF;
 }
 
@@ -58,14 +69,14 @@ top: 24px;
 
 .email-address:hover {
     
-        color: #2196F3;
+        color: var(--hover-focus-color);
         font-style: normal;
       }
 
 
 .tel:hover,
 .tel:focus {
-    color: #2196F3;   
+    color: var(--hover-focus-color);   
 }
 
 .tel {
