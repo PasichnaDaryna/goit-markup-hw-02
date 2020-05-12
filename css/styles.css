@@ -26,12 +26,12 @@ var(--main-bg-color)  #FFFFFF;
 body {
     font-size: 14px;
     width: 1600px;
-    background: #FFFFFF;
+    background: var(--main-bg-color);
     font-family: Roboto, sans-serif;
 }
 
 .logo {
-    color: var(--hover-focus-color)
+    color: var(--hover-focus-color);
     font-family: Raleway,sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -56,11 +56,11 @@ top: 24px;
     line-height: 1.36;
     text-align: center;
     background-color: var(--hover-focus-color);
-    color: #FFFFFF;
+    color: var(--main-bg-color);
 }
 
 .email-address {
-    color: #757575;
+    color: var(--main-txt-color);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -80,7 +80,7 @@ top: 24px;
 }
 
 .tel {
-    color: #757575;
+    color: var(--main-txt-color);
 }
 .list {
     text-decoration: none;
@@ -104,8 +104,8 @@ text-align: center;
 align-items: center;
 padding-left: 60px;
 margin-left: 700px;
-color: #FFFFFF;
-background: #2196F3;
+color: var(--main-bg-color);
+background: var(--hover-focus-color);
 border-radius: 4px;
 width: 200px;
 height: 50px;
@@ -121,11 +121,11 @@ background: #F5F4FA;
 }
 
 footer {
-    background: #2F303A;
+    background: var(--footer-bg-color);
 }
 
 p {
-    color: #757575;
+    color: var(--main-txt-color);
     font-size: 14px;
     line-height: 1.71;
 }
