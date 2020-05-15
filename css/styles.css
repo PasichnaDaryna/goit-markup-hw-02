@@ -53,11 +53,13 @@ body {
 }
 
 .efect-sol {
-    position: absolute;
     display: inline-block;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 46px;
+    margin-left: 477px;
+    margin-right: 477px;
+    margin-top: 200px;
     width: 646px;
     height: 104px;
 
@@ -70,7 +72,8 @@ body {
   line-height: 1.36;    
   
   letter-spacing: 0.06em;
-  background-color: var(--hover-focus-color);
+  background-color: var(--main-txt-color);
+  outline: var(--hover-focus-color);
   color: var(--main-bg-color);
 }
 .contacts {
@@ -98,7 +101,7 @@ a {
   list-style: none;
   text-decoration: none;
   margin: 0;
-  padding: 0;
+  padding; 0;
 }
 
 .nav-option {
@@ -196,6 +199,8 @@ h1,
 h2,
 h3 {
   color: var(--h123-link-color);
+  margin: 0;
+  padding: 0;
 }
 
 .filter-button:hover,
